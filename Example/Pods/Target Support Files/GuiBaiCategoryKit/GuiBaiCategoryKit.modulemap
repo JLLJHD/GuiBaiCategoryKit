@@ -1,0 +1,6 @@
+framework module GuiBaiCategoryKit {
+  umbrella header "GuiBaiCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GuiBaiCategoryKit/Classes/**/*'
+  s.source_files = 'HDCategoryKit/Classes/*.{h,m}'
+
+  #s.source_files = 'GuiBaiCategoryKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'GuiBaiCategoryKit' => ['GuiBaiCategoryKit/Assets/*.png']
