@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0AD5757130ED7AF530224EF0A2A6E34E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6540E8053F7AD06A6FBBEFD4B52B6D6E /* NSMutableArray+HDSort.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D6A67BE6527A35ADCF3C5B3C434B77 /* NSMutableArray+HDSort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6540E8053F7AD06A6FBBEFD4B52B6D6E /* NSMutableArray+HDSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2670C14C0BF754C231255EA45FB161AA /* NSMutableArray+HDSort.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F6B646A859F29A8A6E06169D144B683 /* Pods-GuiBaiCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 033AB8ABC8BD68BCABD5E8BE2E19B5E7 /* Pods-GuiBaiCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70DD7A77720CBCA2BC8340F46D072611 /* GuiBaiCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F04BF168496BCF82B1F3786A3D2D723 /* GuiBaiCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DD7A77720CBCA2BC8340F46D072611 /* GuiBaiCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A578BF975D68D66FBBB2949EDF5117C2 /* GuiBaiCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89448A1596268F86FB9205ED2C721DFB /* Pods-GuiBaiCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB68030A31DBAE423B176356E5FB17D /* Pods-GuiBaiCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		929C367FAC465D2942173C10E258CF37 /* NSMutableArray+HDSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2615DC4F80A26FC801C17D8CC45C090F /* NSMutableArray+HDSort.m */; };
+		929C367FAC465D2942173C10E258CF37 /* NSMutableArray+HDSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C9DB2941C0C3EBBFBB992E34566E6A /* NSMutableArray+HDSort.m */; };
 		D222632AAF98ECF38C86AE8E25CF9DFA /* Pods-GuiBaiCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CA912687E2FEC5F249594766CEEE2 /* Pods-GuiBaiCategoryKit_Example-dummy.m */; };
-		DDF0891D31A6262E7BF1A36B5EFE0A44 /* GuiBaiCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 771058E5BD148DA3B23A69CF01378C3E /* GuiBaiCategoryKit-dummy.m */; };
+		DDF0891D31A6262E7BF1A36B5EFE0A44 /* GuiBaiCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0285ED3E2E14E8D2536AEE687956E045 /* GuiBaiCategoryKit-dummy.m */; };
 		E75CDA20CDB581314C1870B764726E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		F6F67026183D7FAA860ECC3F02CFFE7D /* Pods-GuiBaiCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E51F3DE7CC28814397C85ED56D2CA3A2 /* Pods-GuiBaiCategoryKit_Tests-dummy.m */; };
 		FF00B6ECF33C322062FE09748204605A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -38,33 +38,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0285ED3E2E14E8D2536AEE687956E045 /* GuiBaiCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GuiBaiCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		033AB8ABC8BD68BCABD5E8BE2E19B5E7 /* Pods-GuiBaiCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuiBaiCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		0597D6D64F055D5F07B94C08ECFBFB4B /* Pods-GuiBaiCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuiBaiCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
-		260382BE525D72428404028C22F9A8EA /* GuiBaiCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GuiBaiCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2615DC4F80A26FC801C17D8CC45C090F /* NSMutableArray+HDSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+HDSort.m"; path = "GuiBaiCategoryKit/Classes/GBCategory/NSMutableArray+HDSort.m"; sourceTree = "<group>"; };
+		2670C14C0BF754C231255EA45FB161AA /* NSMutableArray+HDSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+HDSort.h"; path = "GuiBaiCategoryKit/Classes/GBCategory/NSMutableArray+HDSort.h"; sourceTree = "<group>"; };
 		3337D9F41DD840EBB14FCA8353D07F5E /* Pods-GuiBaiCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiBaiCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3830C1105DF2568B6C1F4DB05D390DB5 /* GuiBaiCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		42C2F6CA64A928182018CCB3DF225F5E /* Pods-GuiBaiCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuiBaiCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42DB898D80D1961060C7BA0EB9F3CC49 /* Pods-GuiBaiCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiBaiCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5422FA65B10003661B82E6A7A4674FE0 /* Pods-GuiBaiCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiBaiCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		54CA7FEC439006405BB77008FC2EC1FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		771058E5BD148DA3B23A69CF01378C3E /* GuiBaiCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GuiBaiCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		63C9DB2941C0C3EBBFBB992E34566E6A /* NSMutableArray+HDSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+HDSort.m"; path = "GuiBaiCategoryKit/Classes/GBCategory/NSMutableArray+HDSort.m"; sourceTree = "<group>"; };
 		861EC346BE99820C50B9A0D60F13224D /* Pods-GuiBaiCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiBaiCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		889AD27F873FE5303E23EDBAEE85EC18 /* GuiBaiCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GuiBaiCategoryKit.xcconfig; sourceTree = "<group>"; };
 		8C0D64D27162D18D3BAF181D5A715F0A /* Pods-GuiBaiCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiBaiCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8EB68030A31DBAE423B176356E5FB17D /* Pods-GuiBaiCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuiBaiCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		957178B57DD3C77309440E84D6643435 /* Pods-GuiBaiCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuiBaiCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
 		9A0CA912687E2FEC5F249594766CEEE2 /* Pods-GuiBaiCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuiBaiCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F04BF168496BCF82B1F3786A3D2D723 /* GuiBaiCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCategoryKit-umbrella.h"; sourceTree = "<group>"; };
-		A64393F43446CB141FCE34FD52BAE2C7 /* GuiBaiCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GuiBaiCategoryKit.modulemap; sourceTree = "<group>"; };
+		9F6DBF51CFF639C8FFFE4896E1A323A1 /* GuiBaiCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GuiBaiCategoryKit.modulemap; sourceTree = "<group>"; };
+		A578BF975D68D66FBBB2949EDF5117C2 /* GuiBaiCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		AF0402586F70781EBB93DAEEA113FAA4 /* Pods_GuiBaiCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuiBaiCategoryKit_Tests.framework; path = "Pods-GuiBaiCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19CDE2A5BFD0D6B31DA908B9F2A313E /* Pods_GuiBaiCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuiBaiCategoryKit_Example.framework; path = "Pods-GuiBaiCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1D6A67BE6527A35ADCF3C5B3C434B77 /* NSMutableArray+HDSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+HDSort.h"; path = "GuiBaiCategoryKit/Classes/GBCategory/NSMutableArray+HDSort.h"; sourceTree = "<group>"; };
 		B8EF6A65A2ACC508F6CB34FA80282D6A /* Pods-GuiBaiCategoryKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiBaiCategoryKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		C32621147A30D695CFB5F791FC68C244 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C0607107A321921589D4A5B99E2043A7 /* GuiBaiCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GuiBaiCategoryKit-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CBF399BC14550534C5698669F7A2B00F /* GuiBaiCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GuiBaiCategoryKit-Info.plist"; sourceTree = "<group>"; };
-		DC5C2AC5B1FD214B1FB0AD7E973E127B /* GuiBaiCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		D19108FD70DA1E2053B9179851088A5C /* GuiBaiCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GuiBaiCategoryKit.xcconfig; sourceTree = "<group>"; };
 		DEA31ECFDC493FB9C4EF32BCAC8478DB /* Pods-GuiBaiCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuiBaiCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E4721CC2F430D6ADD377F7EC03C9CD44 /* Pods-GuiBaiCategoryKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiBaiCategoryKit_Example-Info.plist"; sourceTree = "<group>"; };
 		E51F3DE7CC28814397C85ED56D2CA3A2 /* Pods-GuiBaiCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuiBaiCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -101,20 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DD164CB01EFAB452BF6ECE262F93076 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A64393F43446CB141FCE34FD52BAE2C7 /* GuiBaiCategoryKit.modulemap */,
-				889AD27F873FE5303E23EDBAEE85EC18 /* GuiBaiCategoryKit.xcconfig */,
-				771058E5BD148DA3B23A69CF01378C3E /* GuiBaiCategoryKit-dummy.m */,
-				CBF399BC14550534C5698669F7A2B00F /* GuiBaiCategoryKit-Info.plist */,
-				DC5C2AC5B1FD214B1FB0AD7E973E127B /* GuiBaiCategoryKit-prefix.pch */,
-				9F04BF168496BCF82B1F3786A3D2D723 /* GuiBaiCategoryKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GuiBaiCategoryKit";
-			sourceTree = "<group>";
-		};
 		1F58D8047D8B11E86681062F0D7758E8 /* Pods-GuiBaiCategoryKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,26 +115,37 @@
 			path = "Target Support Files/Pods-GuiBaiCategoryKit_Example";
 			sourceTree = "<group>";
 		};
-		43EA4B95404F5EAC8FAC068A43AF3599 /* GuiBaiCategoryKit */ = {
+		5FB43A8BFEC4882DAD3FDF294897BF8E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1D6A67BE6527A35ADCF3C5B3C434B77 /* NSMutableArray+HDSort.h */,
-				2615DC4F80A26FC801C17D8CC45C090F /* NSMutableArray+HDSort.m */,
-				5071ABFAE5C7DCD611B86AFFAECE14DA /* Pod */,
-				0DD164CB01EFAB452BF6ECE262F93076 /* Support Files */,
+				9F6DBF51CFF639C8FFFE4896E1A323A1 /* GuiBaiCategoryKit.modulemap */,
+				D19108FD70DA1E2053B9179851088A5C /* GuiBaiCategoryKit.xcconfig */,
+				0285ED3E2E14E8D2536AEE687956E045 /* GuiBaiCategoryKit-dummy.m */,
+				C0607107A321921589D4A5B99E2043A7 /* GuiBaiCategoryKit-Info.plist */,
+				3830C1105DF2568B6C1F4DB05D390DB5 /* GuiBaiCategoryKit-prefix.pch */,
+				A578BF975D68D66FBBB2949EDF5117C2 /* GuiBaiCategoryKit-umbrella.h */,
 			);
-			name = GuiBaiCategoryKit;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/GuiBaiCategoryKit";
 			sourceTree = "<group>";
 		};
-		5071ABFAE5C7DCD611B86AFFAECE14DA /* Pod */ = {
+		710010B9F864E668C900CE07DF75F17D /* GuiBaiCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				260382BE525D72428404028C22F9A8EA /* GuiBaiCategoryKit.podspec */,
-				C32621147A30D695CFB5F791FC68C244 /* LICENSE */,
-				54CA7FEC439006405BB77008FC2EC1FA /* README.md */,
+				2670C14C0BF754C231255EA45FB161AA /* NSMutableArray+HDSort.h */,
+				63C9DB2941C0C3EBBFBB992E34566E6A /* NSMutableArray+HDSort.m */,
+				5FB43A8BFEC4882DAD3FDF294897BF8E /* Support Files */,
 			);
-			name = Pod;
+			name = GuiBaiCategoryKit;
+			path = GuiBaiCategoryKit;
+			sourceTree = "<group>";
+		};
+		8050FE8A006D5CC4EF5BFC98B1EFDACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				710010B9F864E668C900CE07DF75F17D /* GuiBaiCategoryKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -160,14 +154,6 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		B142AE123BFB230CA5E8E2AA0118C154 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				43EA4B95404F5EAC8FAC068A43AF3599 /* GuiBaiCategoryKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C4399A58BB38BC4A70978E28FFC24485 /* Products */ = {
@@ -184,8 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B142AE123BFB230CA5E8E2AA0118C154 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8050FE8A006D5CC4EF5BFC98B1EFDACF /* Pods */,
 				C4399A58BB38BC4A70978E28FFC24485 /* Products */,
 				D2DE9A118392287282FB3009A5F10D96 /* Targets Support Files */,
 			);
@@ -533,7 +519,7 @@
 		};
 		4E3409983444409AAE8ACB765D0F8546 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 889AD27F873FE5303E23EDBAEE85EC18 /* GuiBaiCategoryKit.xcconfig */;
+			baseConfigurationReference = D19108FD70DA1E2053B9179851088A5C /* GuiBaiCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,7 +617,7 @@
 		};
 		AE0CE1BE3E25B3BA8EEAB45734224756 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 889AD27F873FE5303E23EDBAEE85EC18 /* GuiBaiCategoryKit.xcconfig */;
+			baseConfigurationReference = D19108FD70DA1E2053B9179851088A5C /* GuiBaiCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -2,15 +2,15 @@ PODS:
   - GuiBaiCategoryKit (0.1.0)
 
 DEPENDENCIES:
-  - GuiBaiCategoryKit (from `../`)
+  - GuiBaiCategoryKit
 
-EXTERNAL SOURCES:
-  GuiBaiCategoryKit:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/JLLJHD/GuiBaiSpecs.git:
+    - GuiBaiCategoryKit
 
 SPEC CHECKSUMS:
-  GuiBaiCategoryKit: 26c0a29ed0634772d8dbf3f52bf34032d43ee891
+  GuiBaiCategoryKit: 15a2af1097b64c8ca72b0dc980f629e84b07c1bc
 
-PODFILE CHECKSUM: 45b1a184ec6a5993daa535073791cbbf339d90b5
+PODFILE CHECKSUM: 8b2c9998a71a702ae2430a934cc42122b968c425
 
 COCOAPODS: 1.7.0.beta.3
